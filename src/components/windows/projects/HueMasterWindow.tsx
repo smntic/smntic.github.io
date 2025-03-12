@@ -20,7 +20,7 @@ background: $$BACKGROUND.alpha(-20)$$`;
             <h1>HueMaster</h1>
             <h3>Create a Usable Color Scheme from an Image</h3>
             <h4>
-                <a className="link" href="https://github.com/smnast/cp-tool">GitHub Repository</a>
+                <a className="link" href="https://github.com/smntic/cp-tool">GitHub Repository</a>
             </h4>
             <p>
                 <strong>HueMaster</strong> is a color scheme generator that extracts a usable palette from an image, such as a wallpaper. 
@@ -52,7 +52,7 @@ background: $$BACKGROUND.alpha(-20)$$`;
             </p>
             <CodeBlock text={DSLSample} language="text" theme={zenburn} />
             <p>
-                Below is one of my previous <a className="link" href="https://github.com/smnast/void-nullptr">i3 setups</a>, which uses HueMaster for the color scheme:
+                Below is one of my previous <a className="link" href="https://github.com/smntic/void-nullptr">i3 setups</a>, which uses HueMaster for the color scheme:
             </p>
             <img 
                 src={hueMasterResult} 

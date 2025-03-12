@@ -23,7 +23,7 @@ const PortfolioWindow: React.FC<PortfolioWindowProps> = (props) => {
                 <h4>
                     <a
                         className="link"
-                        href="https://github.com/smnast/smnast.github.io"
+                        href="https://github.com/smntic/smntic.github.io"
                     >
                         GitHub Repository
                     </a>

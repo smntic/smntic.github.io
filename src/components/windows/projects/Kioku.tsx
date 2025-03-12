@@ -22,7 +22,7 @@ const KiokuWindow: React.FC<KiokuWindowProps> = (props) => {
                     "memory; recollection; remembrance"—my RL experiments...
                 </h3>
                 <h4>
-                    <a className="link" href="https://github.com/smnast/kioku">
+                    <a className="link" href="https://github.com/smntic/kioku">
                         GitHub Repository
                     </a>
                 </h4>

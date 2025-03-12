@@ -24,7 +24,7 @@ cpt template <name>
             <h1>cp-tool</h1>
             <h3>A CLI for Creating Competitive Programming Files</h3>
             <h4>
-                <a className="link" href="https://github.com/smnast/cp-tool">GitHub Repository</a>
+                <a className="link" href="https://github.com/smntic/cp-tool">GitHub Repository</a>
             </h4>
             <p>
                 <strong>cp-tool</strong> is a lightweight Python script for generating folder structures 

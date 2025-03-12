@@ -17,7 +17,7 @@ const RoboticaWindow: React.FC<RoboticaWindowProps> = (props) => {
                 <h1>Robotica</h1>
                 <h3>Open Source VEX Prototyping Software</h3>
                 <h4>
-                    <a className="link" href="https://github.com/smnast/Robotica">GitHub Repository</a>
+                    <a className="link" href="https://github.com/smntic/Robotica">GitHub Repository</a>
                 </h4>
                 <p>
                     <strong>Robotica</strong> is a VEX prototyping and CAD software developed using the <a className="link" href="https://godotengine.org">Godot</a> game engine with C# and GDScript,

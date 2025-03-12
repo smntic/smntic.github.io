@@ -44,7 +44,7 @@ output(a = 2) # true`;
                 <h1>SynthScript</h1>
                 <h3>The Human-Centric Scripting Language</h3>
                 <h4>
-                    <a className="link" href="https://github.com/smnast/SynthScript">GitHub Repository</a>
+                    <a className="link" href="https://github.com/smntic/SynthScript">GitHub Repository</a>
                 </h4>
                 <p>
                     <strong>SynthScript</strong> is a dynamically-typed, interpreted scripting language designed from the ground up to utilize intuitive syntax and accessible built-in functions, including capabilities for reading from and writing to files.

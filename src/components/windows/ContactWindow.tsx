@@ -31,13 +31,13 @@ const ContactWindow: React.FC<WelcomeWindowProps> = (props) => {
             <br />
             <p>
                 <Icon className="icon" icon="mdi:github" />&nbsp;-&nbsp;
-                <a className="link" href="https://github.com/smnast" target="_blank" rel="noopener noreferrer">
-                    smnast (Simon Ashton)
+                <a className="link" href="https://github.com/smntic" target="_blank" rel="noopener noreferrer">
+                    smntic (Simon Ashton)
                 </a>
             </p>
             <p>
                 <Icon className="icon" icon="mdi:discord" />&nbsp;-
-                smnast (Simon)
+                smntic (Simon)
             </p>
             <p>
                 <Icon className="icon" icon="simple-icons:codeforces" />&nbsp;-&nbsp;
@@ -47,8 +47,8 @@ const ContactWindow: React.FC<WelcomeWindowProps> = (props) => {
             </p>
             <p>
                 <Icon className="icon" icon="mdi:youtube" />&nbsp;-&nbsp;
-                <a className="link" href="https://www.youtube.com/@smnast" target="_blank" rel="noopener noreferrer">
-                    @smnast (Simon Ashton)
+                <a className="link" href="https://www.youtube.com/@smntic" target="_blank" rel="noopener noreferrer">
+                    @smntic (Simon Ashton)
                 </a>
             </p>
         </Window>

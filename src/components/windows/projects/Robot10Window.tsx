@@ -16,7 +16,7 @@ const Robot10Window: React.FC<Robot10WindowProps> = (props) => {
                 <h1>Robot10</h1>
                 <h3>2023-2024 VEX Robotics Code</h3>
                 <h4>
-                    <a className="link" href="https://github.com/smnast/Robot10">GitHub Repository</a>
+                    <a className="link" href="https://github.com/smntic/Robot10">GitHub Repository</a>
                 </h4>
                 <p>
                     <strong>Robot10</strong> is the final version of my VEX Robotics code for the 2023-2024 season. 
