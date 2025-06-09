@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.03960095.css",
-    "main.js": "/static/js/main.b0a366cc.js",
+    "main.js": "/static/js/main.8ca4bd5f.js",
     "static/js/6453.e4ecdec7.chunk.js": "/static/js/6453.e4ecdec7.chunk.js",
     "react-syntax-highlighter/refractor-core-import.js": "/static/js/react-syntax-highlighter/refractor-core-import.f554fe3e.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/static/js/react-syntax-highlighter_languages_refractor_abap.dd4a514f.chunk.js",
@@ -285,12 +285,13 @@
     "static/media/huemaster_result.png": "/static/media/huemaster_result.6d05aaa1fd34e8f96434.png",
     "static/media/portfolio.png": "/static/media/portfolio.2401ae7633ca17386d04.png",
     "static/media/robotica_snap.png": "/static/media/robotica_snap.a08ccd25b5f8be6ceb18.png",
+    "static/media/warning.webp": "/static/media/warning.198dab4aed8f5ad2d394.webp",
     "static/media/robotica_group.png": "/static/media/robotica_group.5dc28266e34b7161dbd4.png",
     "static/media/welcome.png": "/static/media/welcome.0670e62809ca18bf19d4.png",
     "static/media/minesweeper.webp": "/static/media/minesweeper.b37634ec44d01d64d914.webp",
     "index.html": "/index.html",
     "main.03960095.css.map": "/static/css/main.03960095.css.map",
-    "main.b0a366cc.js.map": "/static/js/main.b0a366cc.js.map",
+    "main.8ca4bd5f.js.map": "/static/js/main.8ca4bd5f.js.map",
     "6453.e4ecdec7.chunk.js.map": "/static/js/6453.e4ecdec7.chunk.js.map",
     "refractor-core-import.f554fe3e.chunk.js.map": "/static/js/react-syntax-highlighter/refractor-core-import.f554fe3e.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.dd4a514f.chunk.js.map": "/static/js/react-syntax-highlighter_languages_refractor_abap.dd4a514f.chunk.js.map",
@@ -573,6 +574,6 @@
   },
   "entrypoints": [
     "static/css/main.03960095.css",
-    "static/js/main.b0a366cc.js"
+    "static/js/main.8ca4bd5f.js"
   ]
 }
