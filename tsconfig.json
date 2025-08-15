@@ -22,7 +22,6 @@
       "@/*": ["./src/*"],
       "app/*": ["./src/app/*"],
       "components/*": ["./src/components/*"],
-      "images/*": ["./public/images/*"],
       "lib/*": ["./src/lib/*"],
       "blog/*": ["./content/blog/*"]
     }
