@@ -12,8 +12,8 @@ export default makeMdxListPage(
   <>
     <h1>Blog</h1>
     <p>
-      I started this blog to informally post my own research and other projects that I've been
-      working on. Read some of them if you'd like... or don't, it's up to you :).
+      I started this blog to informally post my own research and other projects that I&apos;ve been
+      working on. Read some of them if you&apos;d like... or don&apos;t, it&apos;s up to you :).
     </p>
   </>,
 );

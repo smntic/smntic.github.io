@@ -15,7 +15,6 @@ export interface BlogFrontmatter {
   lastEdited?: Date;
   tags?: string[];
   sourceCode?: SourceCode;
-  [key: string]: any;
 }
 
 export interface ProjectFrontmatter {
@@ -25,7 +24,6 @@ export interface ProjectFrontmatter {
   endDate: Date;
   tags?: string[];
   sourceCode?: SourceCode;
-  [key: string]: any;
 }
 
 export type FrontmatterMap = {
@@ -56,26 +54,33 @@ function getPost<T extends PostType>(postType: T, slug: string): Post<T> {
   const fileContents = fs.readFileSync(filePath, 'utf-8');
   const { data: frontmatter, content } = matter(fileContents);
 
-  const timeZone = 'America/Vancouver';
+  // what the fuck is this, "typescript". isn't typing supposed to make this easier?
+  type RecursiveDateObject<T> =
+    T extends Date ? Date :
+    T extends (infer U)[] ? RecursiveDateObject<U>[] :
+    T extends object ? { [K in keyof T]: RecursiveDateObject<T[K]> } :
+    T;
 
   // gray matter reads the date strings as UTC... so i convert them to DateTime objects,
   // then read them as PT (my local time), then convert them back to Dates... recursively
-  function convertDatesToPT(obj: any): any {
+  function convertDatesToTZ<T>(obj: T, timeZone: string): RecursiveDateObject<T> {
     if (obj instanceof Date) {
       return DateTime.fromJSDate(obj, { zone: 'UTC' })
         .setZone(timeZone, { keepLocalTime: true })
-        .toJSDate();
+        .toJSDate() as RecursiveDateObject<T>;
     } else if (Array.isArray(obj)) {
-      return obj.map((item) => convertDatesToPT(item));
+      return obj.map((item) => convertDatesToTZ(item, timeZone)) as RecursiveDateObject<T>;
     } else if (obj && typeof obj === 'object') {
-      return Object.fromEntries(Object.entries(obj).map(([k, v]) => [k, convertDatesToPT(v)]));
+      return Object.fromEntries(
+        Object.entries(obj).map(([k, v]) => [k, convertDatesToTZ(v, timeZone)]),
+      ) as RecursiveDateObject<T>;
     }
-    return obj;
+    return obj as RecursiveDateObject<T>;
   }
 
   return {
     slug,
-    frontmatter: convertDatesToPT(frontmatter) as FrontmatterMap[T],
+    frontmatter: convertDatesToTZ(frontmatter, 'America/Vancouver') as FrontmatterMap[T],
     content,
   };
 }

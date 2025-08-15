@@ -11,6 +11,6 @@ export default makeMdxListPage(
   (post) => <ProjectCard key={post.slug} post={post} />,
   <>
     <h1>Projects</h1>
-    <p>I've worked on lots of projects in the last few years. These are some of my favourites!</p>
+    <p>I&apos;ve worked on lots of projects in the last few years. These are some of my favourites!</p>
   </>,
 );
