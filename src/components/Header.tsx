@@ -8,7 +8,9 @@ export default function Header() {
     <header className="sticky top-0 w-full bg-panel-dark panel-shadow z-100">
       <div className="flex justify-between items-center max-w-5xl mx-auto p-2">
         <Link href="/" className={`${navButtonClasses} inline-flex items-center space-x-2`}>
-          <Image src="/images/theme/favicon.png" alt="smntic icon" className="w-6 h-6" />
+          <div className="relative w-6 h-6">
+            <Image src="/images/theme/favicon.png" alt="smntic icon" fill={true} />
+          </div>
           <span className="font-semibold">smntic.dev</span>
         </Link>
         <nav className="flex space-x">
