@@ -1,5 +1,9 @@
 ---
 layout: post
+date: 2016-05-19
+modified_date: 2024-12-20
+description: >
+  This is a post about something useful, probably.
 ---
 
 An article with various blocks of highlighted code snippets.

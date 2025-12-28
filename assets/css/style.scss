@@ -2,6 +2,58 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+// Define the colour scheme
+$dm-brand-color:           #bababa;
+$dm-heading-color:         #cecece;
+$dm-background-color:      #121315;
+$dm-code-background-color: #16181d;
+$dm-link-base-color:       #889fcc;
+$dm-link-visited-color:    #889fcc;
+
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+.site-header {
+  border-top: none;
+}
+
+.site-title {
+  font-family: "monospace" !important;
+  font-size: 1.2em !important;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-col {
+  margin-bottom: 0;
+}
+
+.contact-list {
+  margin-bottom: 0;
+}
+
+.social-media-list {
+  display: inline-flex;
+}
+
+.post-title-preview {
+  margin-top: 0.3rem !important;
+  margin-bottom: 0.3rem !important;
+};
+
+.pager {
+  margin-top: 5rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

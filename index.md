@@ -1,13 +1,11 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
 layout: home
 ---
 
 # Welcome
 
-This website is under construction.
+Hi! I'm Simon, a second-year computer science student at Simon Fraser
+University with over a decade of passion for computing. In recent years, I've
+taken on more complex projects and coursework. My interests in CS include
+efficient software development methods, reinforcement learning and artificial
+life. Alongside my studies, I actively practice competitive programming.
