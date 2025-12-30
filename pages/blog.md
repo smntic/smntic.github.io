@@ -5,6 +5,7 @@ permalink: /blog/
 pagination:
   enabled: true
   title: Blog
+  collection: blog
 ---
 
 <div class="blog">

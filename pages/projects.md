@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 <div class="projects">
-  {% assign projects = site.projects | sort: "end-date" | reverse %}
+  {% assign projects = site.projects | sort: "end_date" | reverse %}
 
   <ul class="post-list">
     {% for project in projects %}
